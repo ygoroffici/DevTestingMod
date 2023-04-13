@@ -25,9 +25,6 @@
       "me.ygoroffici.devtestingmod.DevTestingModClient"
     ]
   },
-  "mixins": [
-    "devtestingmod.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.14.19",
