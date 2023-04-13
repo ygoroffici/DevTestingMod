@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "devtestingmod",
+  "version": "${version}",
+
+  "name": "Development Testing Mod",
+  "description": "One day there was Akko, she was very nice and good person. And then Akko Akkoed. End of story!",
+  "authors": [
+    "Ygor!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/devtestingmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.ygoroffici.devtestingmod.DevTestingMod"
+    ],
+    "client": [
+      "me.ygoroffici.devtestingmod.DevTestingModClient"
+    ]
+  },
+  "mixins": [
+    "devtestingmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
