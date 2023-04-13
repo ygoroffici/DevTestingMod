@@ -1,0 +1,8 @@
+{
+  "comment": "Items",
+  "item.devtestingmod.sound_stick": "Sound Stick",
+  "itemGroup.devtestingmod.devtesting_group": "Development Testing Mod",
+
+  "comment": "Tooltips",
+  "item.devtestingmod.sound_stick.tooltip": "Right click on two blocks, then shift + right click to check for walls in between"
+}
